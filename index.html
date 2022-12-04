@@ -1,0 +1,142 @@
+<html>
+
+<head>
+
+  <link rel="stylesheet" href="font/all.min.css">
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Bookmark</title>
+  <script src="bootstrap.bundle.min.js"></script>
+
+
+</head>
+
+<body>
+  <h1>Visit Website</h1>
+
+  <div class="line"></div>
+  <h2 class="booker">Bookmark your Favorite sites</h2>
+
+  <p class="namew">Site Name</p>
+
+  <form>
+   
+  <input type="text" id="siteName" name="fname" placeholder="bookmark Name" class="sari" >
+  <div class="alert alert-danger d-none" id="alertName">
+<p>Name is required</p>
+  </div>
+  </form>
+
+<p class="namew">Site URL</p>
+
+<form>
+ 
+<input type="text" id="linkName" name="fname" placeholder="website URL" class="sari" >
+<div class="alert alert-danger d-none" id="alertURL">
+    <p>Url Field is required</p>
+      </div>
+</form>
+
+<button type="button" class="btn btn-primary " onclick="Submit()">Submit</button>
+<br>
+<br>
+<br>
+<table class="table table-striped-columns spell  table-bordered text-center">
+
+    <thead>
+        <tr>
+            <!-- <th>Index</th>
+            <th>siteName</th>
+            <th>linkName</th>
+    
+          
+            <th>Visit</th>
+            <th>Delete</th> -->
+          
+        </tr>
+    </thead>
+    <tbody id="tableBody" > 
+     
+    </tbody>
+</table>
+<div class="line2"></div>
+<h3 class="book">2023 bookmarker Inc.</h3>
+
+
+<!-- <div class="container py-5">
+  <form>
+
+      <div class="mb-3">
+
+          <label for="productName">Product Name</label>
+          <input type="text" class="form-control" id="productName">
+      </div>
+      <div class="mb-3">
+
+          <label for="productPrice">Product Price</label>
+          <input type="number" class="form-control" id="productPrice">
+      </div>
+
+      <div class="mb-3">
+
+          <label for="productCategory">Product Category</label>
+
+
+          <select name="" class="form-select" id="productCategory">
+
+              <option value="Tv">Tv</option>
+              <option value="Mobile">Mobile</option>
+              <option value="Labtop">Labtop</option>
+          </select>
+      </div>
+
+      <div class="mb-3">
+
+          <label for="productDescription">Product Description</label>
+          <textarea class="form-control" id="productDescription"></textarea>
+      </div>
+
+      <button type="button" onclick="addProduct()" class="btn btn-outline-info">Add Product</button>
+      <button type="button" class="btn btn-outline-danger">clear form</button>
+  </form>
+
+
+  <input type="text"  onkeyup="search()"  id="searchInput" placeholder="Search....." class="form-control w-50 mx-auto my-4">
+
+
+  <table class="table table-striped-columns  table-bordered text-center">
+
+      <thead>
+          <tr>
+              <th>Index</th>
+              <th>product Name</th>
+              <th>product Price</th>
+              <th>product Category</th>
+              <th>product Description</th>
+              <th>Update</th>
+              <th>Delete</th>
+            
+          </tr>
+      </thead>
+      <tbody id="tableBody" > 
+        
+      </tbody>
+  </table>
+</div> --> 
+
+
+<script src="style.js"></script>
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+</html>

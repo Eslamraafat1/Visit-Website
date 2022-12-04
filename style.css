@@ -1,0 +1,75 @@
+h1 {
+  color: #aaa;
+  margin-left: 5%;
+  margin-top: 2%;
+}
+body{
+  background-image: url(image/planet-orbit-outer-space-cosmos-4096x3112-8768.jpg);
+  background-position: cover;
+}
+.line{
+  width: 90%;
+  height: 1px;
+  background-color: white;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+h2 {
+  text-align: center;
+  margin-top: 50px;
+}
+p{
+  text-align: center;
+  font-size: large;
+  margin-top: 20px;
+  font-weight:bold;
+}
+.sari{
+  /* padding: 5px 400px; */
+  padding-right:  50%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  
+  text-align: left;
+  margin-left: 20%;
+  border: none;
+}
+.btn-primary{
+  margin-left: 48%;
+
+}
+.btn-primary:hover{
+  background-color: #0a3f77;
+}
+.line2{
+  width: 90%;
+  height: 1px;
+  background-color: white;
+  margin-left: 50px;
+  margin-top: 70px;
+}
+.book{
+  font-size: 15px;
+  color: #aaa;
+  margin-top: 30px;
+  margin-left: 70px;
+}
+.blod{
+  font-weight: bold;
+  font-size: 25px;
+
+
+}
+.margen{
+ margin-right: 100%;
+/* border: none; */
+}
+.booker{
+  color: white;
+}
+.namew{
+  color: white;
+}
+.spell{
+  color: white;
+}
